@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Emerald Isle Football</title>
+        <link rel="stylesheet" href ="styles/mainStyles.css">
+    <style>
+        label {
+            float: left;
+            width: 112px; 
+            padding-right: 10px;
+            text-align: right; }
+        input {
+            margin-left: 1em;
+            margin-bottom: .5em;
+            width: 220px;   }
+        #button, #reset {
+            margin-top: .5em;
+            width: 8em;
+            background-color: green;
+            border: 2px solid black;
+        }
+        input[type="checkbox"] {width: 15px; }
+        #button {
+            margin-left: 138px;
+        }
+        #reset {
+            margin-left: 82px;
+        }
+        input[type="radio"] {width: 10px;}
+    </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img id="football" style="float:left;" src ="images/football_img.webp" alt="football_img" width = "110" height = "85">  
+                <h1 style="font-size:20px;">Emerald Ilse Football</h1>
+                <ul>
+                <li id="active"> <a href="home.html"> Home </a></li> 
+                <li> <a href="nutrition.html"> Nutrition </a></li>
+                <li> <a href="practice.html"> Practice </a></li>
+                <li> <a href ="questions.html"> Help </a></li>
+                </ul> 
+            </nav>
+        </header>
+
+        <main>
+        <h2>Questions</h2>
+        <p>Have a question about training, how to improve your game or what personal diet could help you?
+        Our team of professionals will be happy to give you advice! We typically respond between 1-2 business days.
+        </p>
+
+        <label for="firstName">First Name : </label>
+        <textarea cols="20" rows="1" id="firstName"></textarea> <br>
+        <label for="lastName">Surname : </label>
+        <textarea cols="20" rows="1" id="lastName"></textarea><br>
+
+        <label>Gender: </label>
+        <input type ="radio" name="gender" value="male"> Male
+        <input type ="radio" name="gender" value="female"> Female
+        <input type ="radio" name="gender" value="other"> Other <br>
+
+        <label>Heard of us: </label>
+        <fieldset>
+            <input type = "checkbox" id = "internet" name ="internet" value = "internet" checked> Internet <br>
+            <input type = "checkbox" class = "margin1" name = "paper" value = "paper" checked> Newspaper <br>
+            <input type = "checkbox" class = "margin2" name ="friend" value = "friend" checked> Friend <br>
+            <input type = "checkbox" class = "margin3" name ="Add" value = "Add" checked> Other <br>
+        </fieldset>
+        <label for ="message">Query: </label>
+        <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters"></textarea>
+        <input type="submit" name="submit" id="button" value ="Submit">
+        <input type="reset" name="reset" id="reset">
+        </main>
+        <footer>
+            <div><p>@ Emerald Isle Football Copyright 2024</p></div>
+        </footer>
+    </body>
+</html>

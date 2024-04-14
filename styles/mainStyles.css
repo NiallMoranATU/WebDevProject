@@ -1,0 +1,78 @@
+#BigPic {
+    background-image: url("../images/football_pitch.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #00985A;
+    height: 400px;
+    border: 1px solid blue;
+    }
+    h1 {
+        float: right;
+        color: black;
+    }
+    nav ul li {
+        list-style-type: name;
+        background-color: #b2b2b2;
+        display: inline; 
+        padding: 15px; 
+        margin: 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+    }
+    nav ul{
+        text-align: center;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+    nav {
+        background-color: #00985A;
+        height: 110px;
+        padding: 5px;
+    }
+    h2 {
+        color: green;
+    }
+    h4{
+        color: darkslategrey;
+    }
+footer { 
+    background-color: gray;
+    height: 70px;
+    padding: 10px;
+    float: none;     
+} 
+div{display: flex; 
+    justify-content: center;}
+#food1{
+    border: 5px dotted black;
+}
+#food2{
+    border: 5px dotted black;
+}
+#training1
+{   border: 2px solid grey;
+}
+#training2
+{   border: 2px solid grey;
+}
+body{border: 1px;
+padding: 2px;}
+#LOIPic1{
+    border: 1px solid grey;
+    height: 351px;
+    width: 688px;
+    padding: 10px;
+}
+#LOIPic2{
+    border: 1px solid grey;
+    height: 351px;
+    width: 688px;
+    padding: 10px;
+}
+div{display: flex; 
+    justify-content: center;}
